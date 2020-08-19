@@ -12,7 +12,7 @@ Decide how you want to complete programming assignments in this class. I have en
 
 This assignment requires you to download and modify `run.py`.  In a few weeks, we will learn about [Git](https://git-scm.com/) and [GitHub](https://github.com/); if you know these tools you are free to fork this repo.  For now, though, you will follow these instructions to modify `run.py` and, once you are satisfied with the assignment, you will submit the `run.py` file via Moodle.  Once you have installed Python3 and have your editor of choice, you should be able to download `run.py` and run it without errors.  You can download all the files in this repo using the green `Code` button:
 
-![code download](code-download.png)
+![code download](figs/code-download.png)
 
 ## 2. Working with Adjacency Matrices
 
