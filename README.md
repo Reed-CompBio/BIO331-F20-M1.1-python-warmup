@@ -3,7 +3,7 @@
 This Python warmup assignment will review installation and GitHub classroom instructions, provide practice working with lists and dictionaries, and introduce two ways to store graphs.  Refer to the [Moodle Python Resources](https://moodle.reed.edu/mod/page/view.php?id=141006) page or the [Bio131 Python Crashcourse](https://annaritz.github.io/python-crashcourse/) for Python syntax refreshers.
 
 * **Assignment Out:** Monday, Aug 31
-* _Suggested Deadline:_ Monday, Sept 7
+* :arrow_right: _Suggested Deadline:_ Monday, Sept 7
 * **Assignment Due:** Monday, Sept 14
 
 ## 1. Installing Python3 and Working with `run.py`
@@ -34,7 +34,7 @@ F 1 1 0 0 1 0
 
 In `run.py`, Line 12 assigns a list of nodes to the `nodes` variable and Line 14 assigns a list of lists to the `adj_mat` variable.
 
-**Task A**: write a `print_mat()` function to print the adjacency matrix _exactly_ as shown above (including spacing).  This function takes two arguments, `nodes` and `adj_mat`, and returns nothing (this [pythontutor example](http://pythontutor.com/visualize.html#code=%23%20example%20from%20https%3A//www.reddit.com/r/learnpython/comments/8k7h3z/print_vs_return/%0A%0A%23%20define%20two%20functions%3A%20one%20prints%205%20and%20one%20returns%205.%0Adef%20print_5%28%29%3A%0A%20%20%20%20print%285%29%0A%20%20%20%20%0Adef%20return_5%28%29%3A%0A%20%20%20%20return%205%0A%0Ar1%20%3D%20print_5%28%29%0Aprint%28'print_5%28%29%20returns',r1%29%0A%0Ar2%20%3D%20return_5%28%29%0Aprint%28'return_5%28%29%20returns',r2%29%0A%0Aprint%28'%22print%28%29%22%20is%20a%20function,%20but%20%22return%22%20returns%20the%20value.'%29%0A&cumulative=false&curInstr=12&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false) shows the difference between `print()` and `return`).
+:star: **Task A**: write a `print_mat()` function to print the adjacency matrix _exactly_ as shown above (including spacing).  This function takes two arguments, `nodes` and `adj_mat`, and returns nothing (this [pythontutor example](http://pythontutor.com/visualize.html#code=%23%20example%20from%20https%3A//www.reddit.com/r/learnpython/comments/8k7h3z/print_vs_return/%0A%0A%23%20define%20two%20functions%3A%20one%20prints%205%20and%20one%20returns%205.%0Adef%20print_5%28%29%3A%0A%20%20%20%20print%285%29%0A%20%20%20%20%0Adef%20return_5%28%29%3A%0A%20%20%20%20return%205%0A%0Ar1%20%3D%20print_5%28%29%0Aprint%28'print_5%28%29%20returns',r1%29%0A%0Ar2%20%3D%20return_5%28%29%0Aprint%28'return_5%28%29%20returns',r2%29%0A%0Aprint%28'%22print%28%29%22%20is%20a%20function,%20but%20%22return%22%20returns%20the%20value.'%29%0A&cumulative=false&curInstr=12&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false) shows the difference between `print()` and `return`).
 
 ## 3. From an Adjacency Matrix to an Adjacency List
 
@@ -50,22 +50,22 @@ E: B F
 F: A B E
 ```
 
-**Task B**: Write a function `mat_to_list()` that converts an adjacency matrix to an adjacency list. The adjacency list is a dictionary of `key`,`value` pairs, where the keys are nodes and the values are a list of neighbors. (You can use [Python sets](https://docs.python.org/3/tutorial/datastructures.html#sets) instead of lists for the values, but this is optional).  The `mat_to_list()` function takes one input, `adj_mat`, and returns an `adj_list` dictionary.
+:star: **Task B**: Write a function `mat_to_list()` that converts an adjacency matrix to an adjacency list. The adjacency list is a dictionary of `key`,`value` pairs, where the keys are nodes and the values are a list of neighbors. (You can use [Python sets](https://docs.python.org/3/tutorial/datastructures.html#sets) instead of lists for the values, but this is optional).  The `mat_to_list()` function takes one input, `adj_mat`, and returns an `adj_list` dictionary.
 
 
-**Task C**: Write a `print_list()` function to print the adjacency list as shown above (the order of nodes and neighbors may be different). This function takes one input, `adj_list`, and returns nothing.
+:star: **Task C**: Write a `print_list()` function to print the adjacency list as shown above (the order of nodes and neighbors may be different). This function takes one input, `adj_list`, and returns nothing.
 
 ## 4. Count the number of nodes and edges, two ways.
 
 We can now use the `adj_mat` variable and the `adj_list` variable (returned by your `mat_to_list()` function) to count the number of nodes and edges in two ways.  Both `count_from-adj_mat()` and `count_from_adj_list()` should return the same values.  
 
-**Task D**: Write a `count_from_adj_mat()` function that takes one input, `adj_mat`, and returns the number of nodes and edges in the graph.
+:star: **Task D**: Write a `count_from_adj_mat()` function that takes one input, `adj_mat`, and returns the number of nodes and edges in the graph.
 
-**Task E**: Write a `count_from_adj_list()` function that takes one input, `adj_list`, and returns the number of nodes and edges in the graph.
+:star: **Task E**: Write a `count_from_adj_list()` function that takes one input, `adj_list`, and returns the number of nodes and edges in the graph.
 
 ## Submitting
 
-**You're Done with Tasks A-E!** Before you submit `run.py` via Moodle, look through the comments and add any additional ones that explain what your code does.  You will get feedback about the amount of comments you provide.
+:star2: **You're Done with Tasks A-E!** Before you submit `run.py` via Moodle, look through the comments and add any additional ones that explain what your code does.  You will get feedback about the amount of comments you provide.
 
 ### Instructions for resubmitting
 
