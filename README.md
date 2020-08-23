@@ -3,8 +3,9 @@
 This Python warmup assignment will review installation and GitHub classroom instructions, provide practice working with lists and dictionaries, and introduce two ways to store graphs.  Refer to the [Moodle Python Resources](https://moodle.reed.edu/mod/page/view.php?id=141006) page or the [Bio131 Python Crashcourse](https://annaritz.github.io/python-crashcourse/) for Python syntax refreshers.
 
 * **Assignment Out:** Monday, Aug 31
-:arrow_right: _Suggested Deadline:_ Monday, Sept 7
 * **Assignment Due:** Monday, Sept 14
+
+:arrow_right: _Suggested Deadline:_ Monday, Sept 7
 
 ## 1. Installing Python3 and Working with `part1.py`
 
