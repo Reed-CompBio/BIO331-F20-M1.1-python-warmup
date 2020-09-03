@@ -17,7 +17,7 @@ This assignment requires you to download and modify `part1.py`.  In a few weeks,
 
 ## 2. Working with Adjacency Matrices
 
-Suppose we want to describe the following graph, which has six nodes (`A`-`F`) and seven undirected edges.
+Suppose we want to describe the following graph, which has six nodes (`A`-`F`) and eight undirected edges.
 
 ![example graph](figs/example-graph.png)
 
