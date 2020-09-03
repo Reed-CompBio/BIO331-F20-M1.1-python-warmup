@@ -49,7 +49,7 @@ A: B D F
 B: A E F
 C: D
 D: A C
-E: B F
+E: B F E
 F: A B E
 ```
 
